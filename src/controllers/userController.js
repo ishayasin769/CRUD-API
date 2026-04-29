@@ -1,4 +1,4 @@
-const pool = require('../db');
+const pool = require('../../db');
 
 // CREATE USER
 exports.createUser = async (req, res) => {
